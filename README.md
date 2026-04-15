@@ -189,11 +189,10 @@ Operations_Dashboard tab → Data › Refresh All
 revsync-rcm/
 ├── generate_remit_data.py        # Python ETL simulation script
 ├── requirements.txt              # Pinned dependencies
-├── data/
-│   ├── tbl_Remit.csv             # CMS remittance source 
-│   └── tbl_Bank.csv              # Simulated bank deposit feed
 └── excel/
     └── RevSync_Engine_Master.xlsx
+        ├── tbl_Remit.csv          # CMS remittance source
+        └── tbl_Bank.csv           # Simulated bank deposit feed
         ├── Reconciliation_Engine  # Master dynamic array tab
         └── Operations_Dashboard   # Executive command center
 ```
